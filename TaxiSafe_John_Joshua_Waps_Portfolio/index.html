@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="John Joshua Waps — IT student and creator of TaxiSafe, an IoT-based taxi driver safety and emergency response concept.">
+  <meta name="theme-color" content="#101820">
+  <title>John Joshua Waps | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="John Joshua Waps home"><span class="brand-icon">WAPS</span><span>JOHN JOSHUA <b>CABALDA</b></span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    <nav id="nav-links">
+      <a href="#about">About</a><a href="#project">Featured Project</a><a href="#skills">Tech Stack</a><a class="nav-cta" href="#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> IT STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Building a<br><em>safer</em> digital<br>world.</h1>
+        <p class="intro">Hi, I'm <strong>John Joshua Cabalda</strong>. I’m interested in building practical digital systems that solve real-world problems through thoughtful design and technology.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#project">Explore TaxiSafe <span>↘</span></a><a class="text-link" href="#about">A little about me <span>↓</span></a></div>
+        <div class="hero-stats"><div><strong>01</strong><span>FEATURED PROJECT</span></div><div><strong>IoT</strong><span>AREA OF INTEREST</span></div><div><strong>CEBU</strong><span>PHILIPPINES</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-top"><span>PORTFOLIO / 2026</span><span>01 — 04</span></div>
+        <div class="portrait-frame"><img src="assets/profile-placeholder.png" alt="Illustrative profile portrait placeholder for John Joshua Waps"><span class="portrait-label">PROFILE<br>01 / JW</span></div>
+        <div class="visual-note"><span class="note-line"></span><p>Technology should make<br>every journey feel safer.</p></div>
+        <div class="orbit-circle"></div><div class="visual-index">WAPS<span>®</span></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / INTRODUCTION</p><h2>Curious mind.<br><span>Purpose-driven work.</span></h2></div>
+      <div class="about-content"><p class="large-copy">I’m a BSIT student who enjoys exploring how software, connected devices, and clean interfaces can come together to make everyday experiences better.</p><p class="body-copy">My current featured concept, TaxiSafe, focuses on taxi driver safety and emergency response in Cebu City. It brings together real-time GPS tracking, emergency alerts, and risk-weighted route recommendations in one connected system.</p><div class="about-tags"><span>Problem solving</span><span>Web development</span><span>IoT systems</span><span>UI/UX thinking</span></div></div>
+    </section>
+
+    <section class="project section" id="project">
+      <div class="section-heading project-heading"><p class="eyebrow">02 / FEATURED PROJECT</p><span class="project-type">CAPSTONE CONCEPT · TAXI SAFETY</span></div>
+      <div class="project-card">
+        <div class="project-main">
+          <div class="project-number">PROJECT 001 <span>↗</span></div>
+          <h2>Taxi<span>Safe</span><sup>™</sup></h2>
+          <p class="project-subtitle">An Internet of Things-Based Taxi Driver Safety and Emergency Response System with Real-Time GPS Tracking and Risk-Weighted Predictive Routing in Cebu City</p>
+          <p class="body-copy">TaxiSafe is a proposed connected safety system designed to support taxi drivers during emergencies. The concept combines an IoT-enabled alert device, live location sharing, incident monitoring, and routing recommendations informed by road-risk data.</p>
+          <a class="text-link" href="#features">Discover the system <span>↓</span></a>
+        </div>
+        <div class="project-art" aria-label="TaxiSafe project illustration">
+          <div class="map-grid"></div><div class="route route-a"></div><div class="route route-b"></div>
+          <div class="map-pin pin-one">●</div><div class="map-pin pin-two">●</div>
+          <div class="phone"><div class="phone-speaker"></div><div class="phone-map"><span class="phone-route"></span><i>●</i></div><div class="sos">SOS</div><small>Emergency alert</small></div>
+          <div class="taxi-car"><div class="taxi-sign">TAXI</div><div class="car-window"></div><div class="car-wheel wheel-one"></div><div class="car-wheel wheel-two"></div></div>
+          <div class="art-caption"><span>CONNECTED MOBILITY</span><strong>Safer trips start<br>with faster response.</strong></div>
+          <div class="art-coordinates">10° 17' N<br>123° 53' E</div>
+        </div>
+      </div>
+      <div class="features-grid" id="features">
+        <article class="feature"><span class="feature-icon">⌁</span><span class="feature-no">01</span><h3>Emergency alert</h3><p>Enables a driver to signal for assistance when an urgent incident occurs.</p></article>
+        <article class="feature"><span class="feature-icon">◎</span><span class="feature-no">02</span><h3>Real-time GPS</h3><p>Shares vehicle location to help authorized responders understand where support is needed.</p></article>
+        <article class="feature"><span class="feature-icon">↗</span><span class="feature-no">03</span><h3>Risk-weighted routing</h3><p>Explores route recommendations using road-risk classifications and weighted road segments.</p></article>
+        <article class="feature"><span class="feature-icon">◷</span><span class="feature-no">04</span><h3>Incident monitoring</h3><p>Organizes emergency status and incident information for follow-up and review.</p></article>
+      </div>
+      <p class="disclaimer">Project description presents the proposed system concept; implementation details and performance depend on the final project scope and testing.</p>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading"><p class="eyebrow">03 / TOOLS & INTERESTS</p><h2>Technology with<br><span>a human purpose.</span></h2></div>
+      <div class="skills-content"><p class="body-copy">A growing toolkit for creating usable web experiences and exploring connected systems. This section can be updated to reflect the technologies John has personally used.</p><div class="skill-list"><div><span>HTML / CSS</span><span class="skill-track"><i style="width:82%"></i></span></div><div><span>JavaScript</span><span class="skill-track"><i style="width:68%"></i></span></div><div><span>Python</span><span class="skill-track"><i style="width:60%"></i></span></div><div><span>IoT / GPS concepts</span><span class="skill-track"><i style="width:72%"></i></span></div></div><p class="skill-note">Illustrative progress bars — edit them to match actual experience.</p></div>
+    </section>
+
+    <section class="contact section" id="contact"><div><p class="eyebrow">04 / NEXT STEPS</p><h2>Have a good idea?<br><em>Let’s build it.</em></h2><p class="body-copy">Interested in technology, collaborative projects, and practical solutions for safer communities.</p></div><div class="contact-panel"><span>GET IN TOUCH</span><p></p><a class="btn btn-primary" href="mailto:johnjoshua@gmail.com">johnjoshua@gmail.com <span>↗</span></a><div class="contact-mark">WAPS<span>.</span></div></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">WAPS</span><span>JOHN JOSHUA <b>CABALDA</b></span></a><span>DESIGNED AROUND TAXISAFE · <span id="year"></span></span><a href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
